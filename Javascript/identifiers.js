@@ -26,4 +26,4 @@ var brand = "Puma";
 console.log (brand);
 
 delete brand;
-console.log (brand);m 
+console.log (brand);
