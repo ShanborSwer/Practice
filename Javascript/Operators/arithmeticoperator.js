@@ -30,4 +30,3 @@ console.log (a*f);
 console.log (a*g);
 console.log (a*h);
 console.log (a*i);
- 
