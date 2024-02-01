@@ -499,12 +499,22 @@ let employees = [{"id":1,"first_name":"Win","last_name":"Collier","email":"wcoll
 {"id":499,"first_name":"Tasia","last_name":"Crees","email":"tcreesdu@cbc.ca","gender":"Female"},
 {"id":500,"first_name":"Barthel","last_name":"Newling","email":"bnewlingdv@reverbnation.com","gender":"Male"}]
 
-let count = 0;
+let malecount = 0;
 
 for (employee of employees){
     if (employee.gender === "Male"){
-          count++
+          malecount++
     }
 }
 
-console.log(count);
+console.log("Male employees :", malecount);
+
+let femalecount = 0;
+
+for (employee of employees){
+    if (employee.gender === "Female"){
+          femalecount++
+    }
+}
+
+console.log("Female employees :", femalecount);
