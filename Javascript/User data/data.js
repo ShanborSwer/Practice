@@ -504,12 +504,32 @@ function display_data(){
     for (user of users){
         
         rows += `<tr>
-            <td>${user.id}</td>
-            <td>${user.name}</td>
-            <td>${user.email}</td>
-            <td>${user.gender}</td>
-        </tr>`
-    }
+        <td>${user.id}</td>
+        <td>${user.name}</td>
+        <td>${user.email}</td>
+        <td>${user.gender}</td>
+    </tr>`
+     }
+    
 
     document.getElementById("data").innerHTML=rows;
 }
+
+let malecount = 0;
+
+for (user of users){
+    if(user.gender==="Male"){
+        malecount++;
+    }
+    document.getElementById("abc").innerHTML="Male Employees : " +malecount;
+}
+
+let femalecount = 0;
+
+for (user of users){
+    if(user.gender==="Female"){
+        femalecount++;
+    }
+    document.getElementById("def").innerHTML="Female Employees : " +femalecount;
+}
+
