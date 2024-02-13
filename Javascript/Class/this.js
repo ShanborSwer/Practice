@@ -1,9 +1,9 @@
 class Account{
-    acc_Bal = 0;
+    acc_Bal = 10000;
 
     deposit_Amount(amount){
         this.acc_Bal=this.acc_Bal+amount
-        console.log("Amount deposited succesfully")
+        
     }
 }
 
