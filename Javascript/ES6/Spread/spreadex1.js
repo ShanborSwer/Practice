@@ -6,6 +6,9 @@ let new_Ids = [...eIds];
     new_Ids.push(ele)
 }
 
+let new_Ids = ids.map((id)=>{
+    return id;
+})
 */
 console.log(new_Ids); 
 
