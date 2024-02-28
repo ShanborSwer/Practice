@@ -1,4 +1,4 @@
-let conditions = true;
+let conditions = false;
 const greet = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         if(conditions){
@@ -13,6 +13,6 @@ const greet = new Promise((resolve,reject)=>{
 greet.then((result)=>{
     console.log(result);
 })
-.catch(function(error){
+.catch((error)=>{
     console.log(error);
 })
