@@ -1,13 +1,13 @@
-let conditions = false;
-const greet = new Promise((resolve,reject)=>{
+let greet = new Promise((resolve,reject)=>{
+    let greetings = false;
     setTimeout(()=>{
-        if(conditions){
+        if(greetings){
             resolve("Hello")
         }
         else{
             reject("Failed")
         }
-    },2000);
+    },3000);
 });
 
 greet.then((result)=>{

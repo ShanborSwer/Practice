@@ -8,7 +8,7 @@ let createEmployee=(emp)=>{
         setTimeout(()=>{
             let dbstatus = false  
             if(dbstatus){
-                reslove("Data inserted")
+                resolve("Data inserted")
                 employees.push(emp)
             }
             else{

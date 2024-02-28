@@ -12,6 +12,6 @@ class Parent {
 }
 
 class Child extends Parent {}
-
+ 
 let a1 = new Child("Shanbor",25)
 console.log(a1.details());

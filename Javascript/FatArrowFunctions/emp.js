@@ -1,6 +1,6 @@
 let eid = 101;
 let add=()=>{
-    return "Addition"
+    return "Addition";
 }
 
 console.log(eid)

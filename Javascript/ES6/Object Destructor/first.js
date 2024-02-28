@@ -9,6 +9,7 @@ let state = {
     count : 100
 }
 
-let {status,product} = state;
+let {product,count,status} = state;
 console.log(status);
 console.log(product);
+console.log(count)

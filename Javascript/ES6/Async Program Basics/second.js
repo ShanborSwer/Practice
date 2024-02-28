@@ -3,7 +3,7 @@ let calc = (a,b,op)=>{
         return a+b;
     }
     if(op === "multi"){
-        return a*b
+        return a*b;
     }
 }
 
