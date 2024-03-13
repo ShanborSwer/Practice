@@ -1,7 +1,5 @@
 class Account{
-    acc_Id;
-    acc_Name;
-    acc_Bal;
+   
 
     constructor(id,name,amount){
         this.acc_Id=id;
@@ -27,4 +25,4 @@ r1.deposit_Amount(1000)
 console.log(r1);
 
 r2.deposit_Amount(3000)
-console.log(r2);
+console.log(r2);  

@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../../react22/src/Navbar/Navbar'
-import Employee from './List Rendering/Employee'
-//import Salary from '../../Backup/Statebind/Salary/salary'
-
+import Message from './Message/Message'
+import Salary from '../../react22/src/Salary/salary'
 class App extends React.Component{
+
     render(){
         return <>
             <Navbar />
-            <Employee />
+            <Salary />
 
         </>
     }
