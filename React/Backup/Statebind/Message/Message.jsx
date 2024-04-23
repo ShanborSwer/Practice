@@ -1,9 +1,12 @@
 import React from 'react'
 
 class Message extends React.Component{
-    state = {
-        msg :  "Hello"
-     }
+    constructor(props){
+        super(props)
+        this.state = {
+            msg :  "Hello"
+         }
+    }
 
     messageHandler = (msg) =>{
         

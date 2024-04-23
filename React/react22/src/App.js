@@ -1,16 +1,17 @@
-import React from 'react'
-import Navbar from '../../react22/src/Navbar/Navbar'
+import Navbar from './Navbar/Navbar'
+//import Login from './Form/Login'
+//import Registration from './Form/Registration'
+import Message from './HookEx/Message'
 import Employee from './List Rendering/Employee'
-//import Salary from '../../Backup/Statebind/Salary/salary'
 
-class App extends React.Component{
-    render(){
-        return <>
+function App (){
+    return (
+        <div>
             <Navbar />
+            <Message />
             <Employee />
-
-        </>
-    }
+        </div>
+    )
 }
 
 export default App

@@ -1,4 +1,4 @@
-class Account{
+/* class Account{
    
 
     constructor(id,name,amount){
@@ -25,4 +25,27 @@ r1.deposit_Amount(1000)
 console.log(r1);
 
 r2.deposit_Amount(3000)
-console.log(r2);  
+console.log(r2);   */
+
+class Car{
+    constructor(id,name,price){
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+
+    upPrice(price){
+        this.price = this.price+price;
+    }
+}
+
+let out = new Car(1,"Thar",250000);
+console.log(out)
+
+let out2 = new Car(2,"Swift",400000)
+
+out.upPrice(5000)
+console.log(out);
+
+out2.upPrice(50000);
+console.log(out2);

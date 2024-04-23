@@ -1,4 +1,4 @@
-class Account{
+/* class Account{
   
        constructor(id,name,amount){
         this.acc_Id=id;
@@ -17,3 +17,14 @@ console.log(a2);
 var a3 = new Account(103,"Rajesh",3000)
 console.log(a3)
 
+ */
+
+class Car{
+    constructor(name,price){
+        this.name = name;
+        this.price = price;
+    }
+}
+
+let output = new Car("Thar",800000);
+console.log(output);
