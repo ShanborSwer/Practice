@@ -1,0 +1,46 @@
+Python 
+
+Python is a general purpose high level programming language
+in 1989 Van Rosaam Guido developed python @ national researc institute, Netherlands
+General availabilty to public was on 1991 feb 20th
+
+Python 1 -- functional programming, OOPs(C++), Scripting Perl Script
+
+Python 2  
+
+current version Python 3
+
+What can we develop using python
+
+-- web app - using Django Framework,Flask, Fast API, 
+
+desktop app 
+
+Database Applications
+
+Data analytics
+
+Data Science
+
+Data Engineering
+
+Machine learning
+
+AI
+
+Networking Applications
+
+ETL - extract trasnsform load
+
+DevOps process
+
+FinOps
+
+Pyhton IDLE
+
+Integrated Learning Environment
+
+how do we excute files in python?
+We execute using interpretor
+
+except mobile applications

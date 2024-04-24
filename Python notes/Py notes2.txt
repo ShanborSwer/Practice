@@ -1,0 +1,279 @@
+conditional and iteratively
+
+what are conditional in python?
+
+if
+if-else
+elif 
+
+iterative flow st:
+for 
+while 
+
+break
+continue 
+pass
+
+
+
+#0 - sunday 
+#1 - Monday
+#2 - Tueday
+num = int(input("Enter Number"))
+
+if num == 0:
+    print("Sunday")
+elif num ==1:
+    print('Monday')
+elif num == 2:
+    print('Tueday')
+elif num ==3:
+    print("Wednesday")
+elif num ==4:
+    print("Thursday")
+elif num == 5:
+    print("Friday")
+else:
+    print("Tomorrow is Saturday")
+
+	
+	
+	
+#Write a program - check given number is 3 digit number or not
+
+Transfer Statements
+===================
+break
+continue 
+pass
+
+pass keyword?
+
+for x in []:
+    pass 
+
+to define
+ - empty Statements
+ - null Statement
+ - pass the error/wont do any thing
+
+
+break:keyword
+We can use break Statement, inside for loop and while loop, execute based on condition.
+
+-break: come to out from loop Statement.
+
+continue:
+========
+we can use continue keyword/Statement, to skip current iteration, and contiue next iteration.
+
+#print 1,2,3,4,6,7,8,9,10
+
+for x in range(1,11):
+    if x == 5:
+       contiue
+    else:
+      print(x)
+
+
+
+
+
+
+break vs continue
+===================
+break - keyword using in loop, when ever break will execute, it come out from loop
+continue - skip current iteration, and execute next iteration.
+
+Basic Data Structure - List,Tuple,Set,Dict,String,
+Fuction ->inner Fuction ->recursive Function->lambda Function->Decorators->Generators
+
+
+===================================
+list method:
+
+index()
+count()
+append()
+insert()
+extend()
+pop()
+remove()
+clear()
+
+sort()  - homogenous list
+reverse()
+
+
+
+List - operators
+
+l1 + l2 
+we can use + operator = both arguments are list type.
+
+membership operators:
+in ,not in 
+
+- we can check, elemetn preset in list or not.
+================================================
+
+assignment - list:
+#
+word=input("Enter String/word")  # hello,gm
+print - all vowels/no of vowel - aeiou
+
+#print no of vowels present in list
+
+
+======================================
+typle:
+
+Reading tuple elements - using index
+slice operator:
+
+ids = (101,102,103,104,105,106)
+print(ids[:])
+print(ids[1:4])
+print(ids[5:20])
+
+Tuple - Immutable
+Once Object is created, we cant chage it content.
+
+tupel -functions
+
+count() - return no of occurances of given element.
+
+===============================
+Inbuit functions
+
+input()
+type()
+print()
+id()
+len()
+
+int()
+str()
+bool()
+float()
+complex()
+list()
+tuple()
+set()
+dict()
+bytes()
+bytearray()
+frozenset()
+range()
+
+bin()
+oct()
+hex()
+eval()
+
+
+map()
+filter()
+reduce()
+
+sorted()
+
+min() - return min value from sequence(list,tuple,set)
+max() - return max value from sequence
+================================================
+
+set Object
+----------
+list=[]  #group of elments
+
+mobiles=[9591619191,9591619192,9591619191,9591619191]
+
+-group of unique elements/values as one entiy - set.
+-Duplicate are not allowed
+-insertion order not preserved,-index concept is not applicable.
+
+How to crate empty set?
+
+How to crate empty list?
+How to crate empty tuple?
+
+
+
+set - functions?
+
+=================
+add(item) -add item to set object
+
+ids={101,102,103}
+ids.add(104)
+print(ids)
+
+
+update(iterable object)
+-if you want add multiple iteams/iterable oject to set.
+
+pop() - it removes and return, random element from set.
+
+remove(x): it remove specified element from set.
+discard(x):it remove specified element from set.
+
+if the specified element not preset in set, 
+incase of remove()return KeyError.
+
+if the specified element not preset in set, 
+incase of discard() return any error.
+
+========================================
+Matermatical operations on set.
++, - , *, ^, &  | 
+
+set.union()                 |  
+set.intersection()          &
+set.difference()            -
+set.symmetric_difference()  ^
+
+=====================================
+Dict? {}
+JSON? {}
+
+dictionary
+word:meaning
+mapped values
+=========================
+group of key:value pairs as one entity.
+
+emp = { 'id':101, 'name':'rahul'}
+
+duplicate keys are not allowed, but values are allowed.
+index and slicing is not applicable.
+insetion order not preserved.
+=====================================================
+
+Python Functions:
+
+Type of arguments
+
+def add(a,b,c):
+    pass
+
+
+add(10,20,30)
+
+'''
+what is a,b,c:positional arguments/formal arguments
+what is 10,20,30: actual arguments
+'''
+python - function Arguments
+1.Positional Arguments
+2.keyword arguments
+3.default Arguments
+  we are providing default valeus for positional arguments
+  
+4.variable length arguments
+
+
+
+
+
+
+        
