@@ -1,0 +1,1 @@
+list(filter(lambda x:print(x),[1,2,3,4]))
