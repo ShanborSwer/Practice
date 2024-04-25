@@ -199,14 +199,7 @@ employees = [{"id":1,"name":"Conan","email":"cdoppler0@digg.com","gender":"Male"
 {"id":199,"name":"Burt","email":"btimmis5i@topsy.com","gender":"Male"},
 {"id":200,"name":"Francisco","email":"fpashe5j@vistaprint.com","gender":"Male"}]
 
-def  male_emp():
-    for employee in employees:
-        if 'gender' == 'male':
-            
-            return employee
-        
-male = list(map(male_emp,employees))
-print(male)
+print (len(list(filter(lambda emp:emp['gender']=='Male',employees))))
         
 
     
