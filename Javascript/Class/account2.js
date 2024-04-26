@@ -5,7 +5,10 @@ class Account{
 
     deposit_Amount(amount){
         console.log(amount +" Deposited Succesfully")
+    
     }
+
+    
 }
 
 let a1= new Account()

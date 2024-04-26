@@ -6,9 +6,13 @@ for (size of sizes){
     console.log(size);
 }
 
+
+
 for (ename of enames){
     console.log (ename);
 }
+
+
 
 for (id of ids){
     console.log(id);
