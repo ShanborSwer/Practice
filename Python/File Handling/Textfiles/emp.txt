@@ -1,3 +1,0 @@
-Welcome to Python World
-Good Morning
-Good Afternoon
